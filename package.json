@@ -1,0 +1,53 @@
+{
+  "name": "qazaq-air-security",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Веб-приложение для обеспечения безопасности Qazaq Air",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/qazaq-air-security.git"
+  },
+  "author": "Ваше Имя <email@example.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.16",
+    "@mui/material": "^5.15.16",
+    "@testing-library/dom": "^10.4.0",
+    "i18next": "^23.10.1",
+    "react-i18next": "^13.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.6.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.8",
+    "postcss": "^8.5.4",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "tailwind:init": "tailwindcss init -p",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src --ext .js,.jsx",
+    "format": "prettier --write \"src/**/*.{js,jsx,json,css,md}\""
+  },
+  "eslintConfig": {
+    "extends": [ "react-app", "react-app/jest" ]
+  },
+  "browserslist": {
+    "production": [ ">0.2%", "not dead", "not op_mini all" ],
+    "development": [ "last 1 chrome version", "last 1 firefox version", "last 1 safari version" ]
+  }
+}
